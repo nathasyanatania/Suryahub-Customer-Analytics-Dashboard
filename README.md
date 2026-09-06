@@ -1,10 +1,6 @@
 # Suryahub-Customer-Analytics-Dashboard
 Interactive Customer Behaviour Dashboard for SuryaHub Built with Google Looker Studio
 
-# Dashboard Customer Behaviour - SuryaHub
-
-Dashboard interaktif untuk monitoring customer behaviour SuryaHub dibuat menggunakan Google Looker Studio dari data Excel penjualan.
-
 ## Tujuan
 - Evaluasi efektivitas program loyalitas pelanggan
 - Identifikasi peluang personalisasi campaign marketing
