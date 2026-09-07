@@ -1,50 +1,50 @@
 # Suryahub-Customer-Analytics-Dashboard
 Interactive Customer Behaviour Dashboard for SuryaHub Built with Google Looker Studio
 
-## Tujuan
-- Evaluasi efektivitas program loyalitas pelanggan
-- Identifikasi peluang personalisasi campaign marketing
-- Menyediakan insight untuk pengambilan keputusan strategis (target: marketing director & tim customer experience)
-
-## Isi Dashboard
-1. **Customer Demographics & Segmentation** — usia, gender, income level
-2. **Geographic & Category Performance** — performa per lokasi & tren kategori pembelian
-3. **Loyalty Program Effectiveness** — perbandingan member vs non-member
-4. **Channel & Social Media Influence**
-5. **Purchase Intent Analysis** — needs-based, wants-based, impulsive
-6. **High-Value Customer Profiling** — profil pelanggan bernilai tinggi (top 20%)
-
-## Live Dashboard
-Klik di sini untuk membuka dashboard *(https://datastudio.google.com/reporting/e3812d73-41b0-41f7-967f-598cd5c85198)*
-
-## Tools
-- Google Looker Studio (Data Studio)
-- Excel (data source & preprocessing)
-
-## Key Insight
-1. **Customer Demographics & Segmentation**
-   - Rata-rata usia customer  Surya Hub 35 tahun dengan rentang usia 18–50 tahun.
-   - Komposisi gender cukup seimbang Female sebanyak 265 orang dan Male 234 orang.
-   - Income level hampir seimbang 50,1 : 49,9 yaitu Middle Income sebanyak  250 orang dan High Income sebanyak 249 orang tidak ada segmen dominan tunggal.  Basis customer SuryaHub relatif terdiversifikasi bukan niche (fokus yang spesifik) ke satu grup demografis.
-  - Kelompok demografis Female usia 35-44 tahun merupakan penyumbang Purchase Amount tertinggi, sementara kelompok Male usia 18-24 tahun menyumbang nilai pembelian terendah. Total nilai pembelian dari kelompok Female jauh lebih mendominasi dibandingkan kelompok Male di hampir semua kategori usia.
-
-2. **Geographic & Category Performance**
-   - Makassar adalah kota yang menduduki posisi pertama paling banyak dari jumlah customer yaitu 95 orang dan total revenue sebesar Rp421 juta, Posisi kedua kota Jakarta dengan revenue sebesar Rp373 juta. Selisih revenue antar kota tidak terlalu ekstrem. Revenue berkisar pada range antara Rp313 hingga 421 juta artinya performa cukup merata di 6 kota.
-   - Kategori revenue tertinggi pada produk Food & Beverages, Health Care, Software & Apps sehingga layak menjadi fokus alokasi inventori/campaign.
-  
-3. **Loyalty Program Effectiveness**
-   - Average Order Value member sebesar Rp4,12jt lebih rendah dari non-member sebesar Rp4,38jt.
-   - Frekuensi beli member 6,66x vs non-member 6,99x dan brand loyalty score non member 3,06 vs  member 3,01 nyaris hampir sama.
-   - Program loyalitas saat ini tidak menunjukkan dampak positif ke perilaku beli ini temuan paling penting untuk dibawa ke leadership karena mengindikasikan diperlukan peninjauan ulang program mungkin insentifnya kurang menarik atau member yang join justru bukan heavy-spender.
-   - Member sedikit lebih condong ke Need-based (70 vs 59 non-member), non-member sedikit lebih ke Wants-based (64 vs 62). 
-
-4. **Channel & Social Media Influence**
-     - Channel Mixed (combine online+offline) memiliki Average Order Value  tertinggi sebesar Rp4,5jt lebih tinggi dari In-Store sebesar Rp4,2jt dan Online murni sebesar Rp4,1jt. Customer yang berbelanja menggunkan lintas channel cenderung mengeluarkan nilai belanja yang lebih besar.
-     - Menariknya level pengaruh media sosial (None/Low/Medium/High) tidak menunjukkan korelasi jelas dengan nilai belanja rata-rata purchase amount degan range Rp4,2 hingga 4,3 artinya paparan medsos saja belum tentu mendorong nilai transaksi lebih besar perlu digali lebih lanjut apakah dampaknya ke jumlah transaksi atau jenis kategori dibanding nilai per transaksi.
+# Objectives
+ 1. Evaluate the effectiveness of the customer loyalty program
+ 2. Identify opportunities for marketing campaign personalization
+ 3. Provide insights for strategic decision-making (target audience: marketing director & customer experience team)
     
+# Dashboard Contents
+ 1. Customer Demographics & Segmentation — age, gender, income level
+ 2. Geographic & Category Performance — performance by location & purchase category trends
+ 3. Loyalty Program Effectiveness — member vs. non-member comparison
+ 4. Channel & Social Media Influence
+ 5. Purchase Intent Analysis — needs-based, wants-based, impulsive
+ 6. High-Value Customer Profiling — profile of high-value customers (top 20%)
+
+# Live Dashboard
+ Click here to open the dashboard *(https://datastudio.google.com/reporting/e3812d73-41b0-41f7-967f-598cd5c85198)*
+
+# Tools
+  1. Google Looker Studio (Data Studio)
+  2. Excel (data source & preprocessing)
+
+# Key Insights
+ 1. **Customer Demographics & Segmentation**
+  - SuryaHub's average customer age is 35 years old, with an age range of 18–50.
+  - Gender composition is fairly balanced: 265 Female customers and 234 Male customers.
+  - Income level is nearly split evenly, 50.1 : 49.9 — 250 Middle Income customers and 249 High Income customers, with no single dominant segment. SuryaHub's   customer base is relatively diversified rather than niche-focused on one specific demographic group.
+  - The Female, 35–44 age group contributes the highest Purchase Amount, while the Male, 18–24 age group contributes the lowest purchase value. Total purchase value from the Female group dominates over the Male group across almost all age categories.
+ 
+ 2. **Geographic & Category Performance**
+  - Makassar ranks first in customer count with 95 customers and total revenue of Rp421 million, followed by Jakarta in second place with revenue of Rp373  million. The revenue gap between cities is not extreme, ranging between Rp313–421 million, indicating fairly even performance across the 6 cities.
+ - The highest-revenue categories are Food & Beverages, Health Care, and Software & Apps, making them worthwhile priorities for inventory/campaign allocation.
+
+ 3. **Loyalty Program Effectiveness**
+  - Average Order Value for members is Rp4.12 million, lower than non-members at Rp4.38 million.
+  - Purchase frequency for members is 6.66x vs. 6.99x for non-members, and brand loyalty scores are nearly identical (non-member 3.06 vs. member 3.01).
+  - The current loyalty program shows no positive impact on purchasing behavior, this is the most important finding to bring to leadership, as it suggests the  program needs to be reviewed; the incentives may not be attractive enough, or the customers who join are simply not heavy spenders to begin with.
+  - Members lean slightly more toward Need-based purchases (70 vs. 59 for non-members), while non-members lean slightly more toward Wants-based purchases (64 vs. 62).
+    
+  4. **Channel & Social Media Influence**
+   - The Mixed channel (combined online + offline) has the highest Average Order Value at Rp4.5 million, higher than In-Store (Rp4.2 million) and pure Online (Rp4.1 million). Customers who shop across multiple channels tend to spend more.
+  - Interestingly, the level of social media influence (None/Low/Medium/High) shows no clear correlation with average purchase amount, ranging only between Rp4.2–4.3 million — suggesting social media exposure alone doesn't necessarily drive higher transaction value. Further investigation is needed into whether its impact is on transaction frequency or category choice rather than value per transaction.
+ 
  5. **Purchase Intent**
-    - Distribusi cukup merata  Purcahse Intent (niat motivasi di balik keputusan seseorang untuk membeli ) di 4 tipe yaitu Need-based  sebanyak 129, Wants-based sebanyak 126, Planned sebanyak  123 dan Impulsive sebanyak 121 tidak ada pola beli yang mendominasi.
-    - Need-based dan Planned punya Average Order Value tertinggi sebesar Rp4,32 hingga 4,34jt sementara Impulsive justru AOV terendah yaitu sebesar  Rp4,14jt kontraintuitif biasanya impulsive buying dikaitkan dengan pengeluaran lebih besar tapi di data SuryaHub tidak demikian.
-   
-6. **High-Value Customer Profiling**
-   - 100 customer top (20% dari populasi) menyumbang ~31% dari total revenue konsentrasi revenue tergolong sehat/tidak terlalu berisiko  bukan pola ekstrem (80/20) artinya SuryaHub tidak terlalu bergantung pada segelintir customer.  
+  - Distribution across the 4 purchase intent types (the motivation behind a customer's decision to buy) is fairly even: Need-based (129), Wants-based (126), Planned (123), and Impulsive (121) — no single buying pattern dominates.
+  - Need-based and Planned purchases have the highest Average Order Value, at Rp4.32–4.34 million, while Impulsive purchases actually have the lowest AOV at Rp4.14 million — a counterintuitive finding, since impulsive buying is typically associated with higher spending, but that's not the case in SuryaHub's data.
+High-Value Customer Profiling
+  - The top 100 customers (20% of the population) contribute ~31% of total revenue — a healthy, low-risk concentration rather than an extreme 80/20 pattern, indicating SuryaHub is not overly dependent on a small handful of customers.
+    
